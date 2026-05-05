@@ -75,7 +75,26 @@ a:hover {
   font-family: var(--font-mono);
   font-size: 1.125rem;
   color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.hero-contact-links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   margin-bottom: 1.5rem;
+}
+
+.hero-contact-link {
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-contact-link:hover {
+  color: var(--accent);
 }
 
 .hero .about {
