@@ -1,19 +1,22 @@
 ---
 interface Props {
   title: string;
+  lang?: string;
 }
 
-const { title } = Astro.props;
+const { title, lang = 'en' } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Emmanuel Martin - Automation Engineer & Backend Developer" />
     <meta name="generator" content={Astro.generator} />
+    <link rel="alternate" hreflang="en" href="https://emmanuelmartindavid.github.io/" />
+    <link rel="alternate" hreflang="es" href="https://emmanuelmartindavid.github.io/es/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />

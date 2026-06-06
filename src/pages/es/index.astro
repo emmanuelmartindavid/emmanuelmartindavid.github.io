@@ -1,9 +1,9 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import LanguageToggle from '../components/LanguageToggle.astro';
-import strings from '../i18n/ui-strings';
+import Layout from '../../layouts/Layout.astro';
+import LanguageToggle from '../../components/LanguageToggle.astro';
+import strings from '../../i18n/ui-strings';
 
-const lang = 'en' as const;
+const lang = 'es' as const;
 const t = strings[lang];
 
 const skills = [
@@ -82,7 +82,7 @@ const skills = [
             <h3>{project.name}</h3>
             <p>{project.description}</p>
             <a href={project.url} target="_blank" rel="noopener noreferrer" class="project-link">
-              &#8594; View on GitHub
+              &#8594; Ver en GitHub
             </a>
           </div>
         ))}

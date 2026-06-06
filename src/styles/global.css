@@ -56,11 +56,36 @@ a:hover {
   padding: 5rem 0 2rem 0;
 }
 
+.hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
 .hero .terminal-line {
   font-family: var(--font-mono);
   color: var(--accent-green);
   font-size: 0.95rem;
-  margin-bottom: 0.5rem;
+}
+
+.lang-toggle {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  background: var(--accent-dim);
+  color: var(--accent);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.lang-toggle:hover {
+  background: rgba(0, 212, 255, 0.2);
+  border-color: var(--accent);
+  color: #fff;
 }
 
 .hero h1 {

@@ -1,0 +1,11 @@
+---
+interface Props {
+  lang: 'en' | 'es';
+}
+
+const { lang } = Astro.props;
+const href = lang === 'en' ? '/' : '/es/';
+const label = lang === 'en' ? 'EN' : 'ES';
+---
+
+<a href={href} class="lang-toggle">{label}</a>
