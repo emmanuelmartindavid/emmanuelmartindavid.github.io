@@ -80,9 +80,9 @@ a:hover {
 
 .hero-contact-links {
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 1.5rem;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero-contact-link {
@@ -90,11 +90,27 @@ a:hover {
   transition: color 0.2s ease;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
 }
 
 .hero-contact-link:hover {
   color: var(--accent);
+}
+
+.hero-contact-link svg {
+  flex-shrink: 0;
+}
+
+.hero-location {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
 }
 
 .hero .about {
