@@ -55,6 +55,7 @@ const languages = {
     ],
     footer: 'Built with Astro.',
     langLabel: 'ES',
+    viewProject: 'View on GitHub',
   },
   es: {
     subtitle: 'Automation Engineer / Backend Developer',
@@ -112,6 +113,7 @@ const languages = {
     ],
     footer: 'Construido con Astro.',
     langLabel: 'EN',
+    viewProject: 'Ver en GitHub',
   },
 } as const;
 
