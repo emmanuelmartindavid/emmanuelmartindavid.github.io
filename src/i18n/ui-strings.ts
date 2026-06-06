@@ -2,7 +2,7 @@ const languages = {
   en: {
     subtitle: 'Automation Engineer / Backend Developer',
     location: 'Buenos Aires, Argentina',
-    about: `Automation Engineer and Backend Developer with 2+ years of experience in high-availability environments. Currently building backend applications with PHP (CodeIgniter) at Interplan S.A., working with MySQL databases, APIs, and Git-based team workflows, while leveraging AI-assisted tooling with Opencode (GLM) for scripting, automation, and rapid prototyping. Previously at Banco de la Naci\u00f3n Argentina, designed an automation ecosystem in Python and PowerShell that reduced manual processes by 80%, and orchestrated the migration of 500+ servers using Ansible and CI/CD pipelines. Expanding into Docker, AWS, and advanced DevOps practices.`,
+    about: `Automation Engineer and Backend Developer with 2+ years of experience in high-availability environments. Currently building backend applications with PHP (CodeIgniter) at Interplan S.A., working with MySQL databases, APIs, and Git-based team workflows, while leveraging AI agents and CLI tools such as Opencode and Claude for scripting, automation, and rapid prototyping. Previously at Banco de la Naci\u00f3n Argentina, designed an automation ecosystem in Python and PowerShell that reduced manual processes by 80%, and orchestrated the migration of 500+ servers using Ansible and CI/CD pipelines. Expanding into Docker, AWS, and advanced DevOps practices.`,
     sections: {
       skills: 'skills',
       experience: 'experience',
@@ -15,7 +15,7 @@ const languages = {
         date: 'May 2026 \u2013 Present',
         bullets: [
           '<strong>Backend Development:</strong> Building and maintaining applications using PHP (CodeIgniter) with MVC architecture, integrating APIs and webhooks for automated workflows.',
-          '<strong>AI-Assisted Development:</strong> Using Opencode with GLM for script generation, debugging, automation tasks, and rapid prototyping of solutions.',
+          '<strong>AI-Assisted Development:</strong> Leveraging AI agents and CLI tools such as Opencode and Claude for script generation, debugging, automation tasks, and rapid prototyping of solutions.',
           '<strong>Data & Collaboration:</strong> MySQL database management, automated query resolution, and source code management with Git (branching, PRs, code review) in a team environment.',
         ],
       },
@@ -59,7 +59,7 @@ const languages = {
   es: {
     subtitle: 'Automation Engineer / Backend Developer',
     location: 'Buenos Aires, Argentina',
-    about: `Automation Engineer y Backend Developer con 2+ a\u00f1os de experiencia en entornos de alta disponibilidad. Actualmente desarrollo aplicaciones backend con PHP (CodeIgniter) en Interplan S.A., trabajando con bases de datos MySQL, APIs y flujos de trabajo en equipo con Git, aprovechando herramientas de desarrollo asistido por AI con Opencode (GLM) para scripting, automatizaciones y prototipado r\u00e1pido. Previamente en Banco de la Naci\u00f3n Argentina, dise\u00f1\u00e9 un ecosistema de automatizaci\u00f3n en Python y PowerShell que redujo los procesos manuales en un 80%, y orquest\u00e9 la migraci\u00f3n de m\u00e1s de 500 servidores utilizando Ansible y pipelines CI/CD. Expandi\u00e9ndome hacia Docker, AWS y pr\u00e1cticas avanzadas de DevOps.`,
+    about: `Automation Engineer y Backend Developer con 2+ a\u00f1os de experiencia en entornos de alta disponibilidad. Actualmente desarrollo aplicaciones backend con PHP (CodeIgniter) en Interplan S.A., trabajando con bases de datos MySQL, APIs y flujos de trabajo en equipo con Git, aprovechando agentes de AI y herramientas CLI como Opencode y Claude para scripting, automatizaciones y prototipado r\u00e1pido. Previamente en Banco de la Naci\u00f3n Argentina, dise\u00f1\u00e9 un ecosistema de automatizaci\u00f3n en Python y PowerShell que redujo los procesos manuales en un 80%, y orquest\u00e9 la migraci\u00f3n de m\u00e1s de 500 servidores utilizando Ansible y pipelines CI/CD. Expandi\u00e9ndome hacia Docker, AWS y pr\u00e1cticas avanzadas de DevOps.`,
     sections: {
       skills: 'skills',
       experience: 'experiencia',
@@ -72,7 +72,7 @@ const languages = {
         date: 'Mayo 2026 \u2013 Presente',
         bullets: [
           '<strong>Desarrollo Backend:</strong> Desarrollo y mantenimiento de aplicaciones con PHP (CodeIgniter) bajo arquitectura MVC, integrando APIs y webhooks para flujos de trabajo automatizados.',
-          '<strong>Desarrollo Asistido por AI:</strong> Uso de Opencode con GLM para generaci\u00f3n de scripts, debugging, tareas de automatizaci\u00f3n y prototipado r\u00e1pido de soluciones.',
+          '<strong>Desarrollo Asistido por AI:</strong> Uso de agentes de AI y herramientas CLI como Opencode y Claude para generaci\u00f3n de scripts, debugging, tareas de automatizaci\u00f3n y prototipado r\u00e1pido de soluciones.',
           '<strong>Datos & Colaboraci\u00f3n:</strong> Gesti\u00f3n de bases de datos MySQL, resoluci\u00f3n automatizada de consultas y gesti\u00f3n de c\u00f3digo fuente con Git (ramas, PRs, code review) en equipo.',
         ],
       },
