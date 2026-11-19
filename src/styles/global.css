@@ -353,3 +353,46 @@ a:hover {
     padding: 3rem 0;
   }
 }
+
+/* Portfolio visual refresh v2 */
+:root { --bg:#090d14; --bg-secondary:#101723; --bg-card:#111b29; --border:#263447; --text:#f0f5fc; --text-muted:#a9b8c9; --accent:#67dcf6; --accent-dim:rgba(103,220,246,.075); }
+body { background:radial-gradient(ellipse 85% 24% at 50% 0%,rgba(40,111,145,.17),transparent 72%),var(--bg); }
+.container { max-width:1060px; padding-inline:clamp(1.25rem,5vw,3rem); }
+.hero { min-height: min(780px,88vh); padding:6rem 0 5rem; border-bottom:1px solid var(--border); }
+.hero-top { margin-bottom:clamp(3rem,8vw,6rem); }
+.hero-eyebrow { color:var(--accent-green); font:600 .72rem var(--font-mono); letter-spacing:.16em; margin-bottom:1.2rem; }
+.hero h1 { font-family:var(--font-sans); font-size:clamp(3.2rem,8.5vw,6.5rem); letter-spacing:-.075em; line-height:1.05; color:var(--text); margin-bottom:1.15rem; }
+.hero h1 span { color:var(--accent); }
+.hero .subtitle { font-family:var(--font-sans); font-size:clamp(1.15rem,2.8vw,1.55rem); font-weight:500; margin-bottom:1.5rem; }
+.hero .about { order:2; max-width:800px; font-size:1.02rem; line-height:1.9; margin:1.6rem 0 0; }
+.hero-actions { display:flex; flex-wrap:wrap; gap:.8rem; margin:1rem 0 1.7rem; }
+.button { display:inline-flex; justify-content:center; align-items:center; gap:.7rem; padding:.85rem 1.35rem; border-radius:9px; font-weight:650; font-size:.9rem; border:1px solid var(--border); transition:transform .2s,border-color .2s,background .2s; }
+.button:hover { transform:translateY(-2px); }
+.button-primary { background:var(--accent); color:#08121c; border-color:var(--accent); }
+.button-primary:hover { color:#08121c; background:#a4edff; }
+.button-secondary { background:rgba(255,255,255,.035); color:var(--text); }
+.button-secondary:hover { border-color:var(--accent); }
+.hero-contact-links { flex-direction:row; flex-wrap:wrap; gap:.75rem 1.5rem; }
+.hero-contact-link { font-size:.76rem; }
+.hero-location { margin-bottom:0; }
+.section { padding:5rem 0; border-bottom:1px solid var(--border); }
+.section-title { font-size:clamp(1.4rem,3vw,1.85rem); margin-bottom:2.25rem; }
+.skill-groups { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.skill-group { background:rgba(17,27,41,.65); border:1px solid var(--border); border-radius:14px; padding:1.5rem; }
+.skill-group h3 { color:var(--text); font-size:.92rem; margin-bottom:1.1rem; }
+.skill-tag { border-radius:6px; font-size:.76rem; }
+.experience-item { position:relative; padding:1.65rem 1.65rem 1.65rem 2rem; margin:0 0 1.2rem 1rem; border:1px solid var(--border); border-radius:13px; background:rgba(17,27,41,.55); }
+.experience-item::before { content:''; position:absolute; top:2rem; left:-1.1rem; width:10px; height:10px; background:var(--accent-green); border-radius:50%; box-shadow:0 0 0 5px var(--bg); }
+.experience-item::after { content:''; position:absolute; top:2.65rem; bottom:-1.8rem; left:-.83rem; width:1px; background:var(--border); }
+.experience-item:last-child::after { display:none; }
+.experience-header h3 { font-size:1.15rem; }
+.projects-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.project-card { display:flex; flex-direction:column; min-width:0; border-radius:14px; padding:1.75rem; background:linear-gradient(140deg,rgba(29,48,67,.75),rgba(17,27,41,.8)); }
+.project-card-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem; }
+.project-glyph { font-size:1.5rem; color:var(--accent-green); }
+.project-index { font:500 .75rem var(--font-mono); color:var(--text-muted); }
+.project-card h3 { overflow-wrap:anywhere; }
+.project-card .project-link { margin-top:auto; padding-top:1rem; }
+a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+@media(max-width:700px) { .hero { min-height:auto; padding:3rem 0 4rem; } .hero-top { margin-bottom:3.5rem; } .hero h1 { font-size:clamp(2.9rem,12vw,4.8rem); } .hero-contact-links { gap:.6rem 1rem; } .hero-contact-link { overflow-wrap:anywhere; } .section { padding:3.5rem 0; } .skill-groups,.projects-grid { grid-template-columns:1fr; } .experience-item { padding:1.3rem; } }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation-duration:.01ms!important; transition-duration:.01ms!important; } }
