@@ -2,7 +2,7 @@ const languages = {
   en: {
     subtitle: 'Automation Engineer / Backend Developer',
     location: 'Buenos Aires, Argentina',
-    about: `Automation Engineer and Backend Developer with 2+ years of experience in high-availability environments. Currently building backend applications with PHP (CodeIgniter) at Interplan S.A., working with MySQL databases, APIs, and Git-based team workflows, while leveraging AI agents and CLI tools such as Opencode and Claude for scripting, automation, and rapid prototyping. Previously at Banco de la Naci\u00f3n Argentina, designed an automation ecosystem in Python and PowerShell that reduced manual processes by 80%, and orchestrated the migration of 500+ servers using Ansible and CI/CD pipelines. Expanding into Docker, AWS, and advanced DevOps practices.`,
+    about: `Automation Engineer and Backend Developer with 2+ years of experience in high-availability environments. Currently building backend applications with PHP (Laravel) at Interplan S.A., building financial management tools with Laravel, Livewire, Tailwind CSS, JavaScript, MySQL, REST APIs, webhooks and Git-based workflows, while leveraging AI agents and CLI tools such as Opencode and Claude for scripting, automation, and rapid prototyping. Previously at Banco de la Naci\u00f3n Argentina, designed an automation ecosystem in Python and PowerShell that reduced manual processes by 80%, and orchestrated the migration of 500+ servers using Ansible and CI/CD pipelines. Expanding into Docker, AWS, and advanced DevOps practices.`,
     sections: {
       skills: 'skills',
       experience: 'experience',
@@ -10,11 +10,11 @@ const languages = {
     },
     experience: [
       {
-        title: 'Automation Engineer / PHP Developer Jr.',
+        title: 'Backend Developer (PHP / Laravel)',
         company: 'Interplan S.A.',
         date: 'May 2026 \u2013 Present',
         bullets: [
-          '<strong>Backend Development:</strong> Building and maintaining applications using PHP (CodeIgniter) with MVC architecture, integrating APIs and webhooks for automated workflows.',
+          '<strong>Backend Development:</strong> Building financial management applications with PHP/Laravel (MVC), Livewire, Tailwind CSS, JavaScript and MySQL. Designed and implemented Banco Galicia payment and settlement integrations using REST APIs and webhooks.',
           '<strong>AI-Assisted Development:</strong> Leveraging AI agents and CLI tools such as Opencode and Claude for script generation, debugging, automation tasks, and rapid prototyping of solutions.',
           '<strong>Data & Collaboration:</strong> MySQL database management, automated query resolution, and source code management with Git (branching, PRs, code review) in a team environment.',
         ],
@@ -43,9 +43,9 @@ const languages = {
         url: 'https://github.com/emmanuelmartindavid/devSecOps_lab',
       },
       {
-        name: 'Generador-borradores-Outlook',
-        description: 'Dynamic workflow generation tool in Python for automated email draft creation, streamlining inter-branch communication.',
-        url: 'https://github.com/emmanuelmartindavid/Generador-borradores-Outlook',
+        name: 'Automation workflows (Python / PowerShell)',
+        description: 'Professional automation experience with Python and PowerShell for reporting, emails and operational processes; internal source code is not public.',
+        url: 'https://github.com/emmanuelmartindavid',
       },
       {
         name: 'Auditoria-Hardware-Sucursales',
@@ -60,7 +60,7 @@ const languages = {
   es: {
     subtitle: 'Automation Engineer / Backend Developer',
     location: 'Buenos Aires, Argentina',
-    about: `Automation Engineer y Backend Developer con 2+ a\u00f1os de experiencia en entornos de alta disponibilidad. Actualmente desarrollo aplicaciones backend con PHP (CodeIgniter) en Interplan S.A., trabajando con bases de datos MySQL, APIs y flujos de trabajo en equipo con Git, aprovechando agentes de AI y herramientas CLI como Opencode y Claude para scripting, automatizaciones y prototipado r\u00e1pido. Previamente en Banco de la Naci\u00f3n Argentina, dise\u00f1\u00e9 un ecosistema de automatizaci\u00f3n en Python y PowerShell que redujo los procesos manuales en un 80%, y orquest\u00e9 la migraci\u00f3n de m\u00e1s de 500 servidores utilizando Ansible y pipelines CI/CD. Expandi\u00e9ndome hacia Docker, AWS y pr\u00e1cticas avanzadas de DevOps.`,
+    about: `Automation Engineer y Backend Developer con 2+ a\u00f1os de experiencia en entornos de alta disponibilidad. Actualmente desarrollo aplicaciones backend con PHP (Laravel) en Interplan S.A., desarrollando herramientas de gestión financiera con Laravel, Livewire, Tailwind CSS, JavaScript, MySQL, APIs REST, webhooks y Git, aprovechando agentes de AI y herramientas CLI como Opencode y Claude para scripting, automatizaciones y prototipado r\u00e1pido. Previamente en Banco de la Naci\u00f3n Argentina, dise\u00f1\u00e9 un ecosistema de automatizaci\u00f3n en Python y PowerShell que redujo los procesos manuales en un 80%, y orquest\u00e9 la migraci\u00f3n de m\u00e1s de 500 servidores utilizando Ansible y pipelines CI/CD. Expandi\u00e9ndome hacia Docker, AWS y pr\u00e1cticas avanzadas de DevOps.`,
     sections: {
       skills: 'skills',
       experience: 'experiencia',
@@ -68,11 +68,11 @@ const languages = {
     },
     experience: [
       {
-        title: 'Automation Engineer / Desarrollador PHP Jr.',
+        title: 'Desarrollador Backend (PHP / Laravel)',
         company: 'Interplan S.A.',
         date: 'Mayo 2026 \u2013 Presente',
         bullets: [
-          '<strong>Desarrollo Backend:</strong> Desarrollo y mantenimiento de aplicaciones con PHP (CodeIgniter) bajo arquitectura MVC, integrando APIs y webhooks para flujos de trabajo automatizados.',
+          '<strong>Desarrollo Backend:</strong> Desarrollo de sistemas de gestión financiera con PHP/Laravel (MVC), Livewire, Tailwind CSS, JavaScript y MySQL. Diseñé e implementé integraciones de pagos y rendiciones con Banco Galicia mediante APIs REST y webhooks.',
           '<strong>Desarrollo Asistido por AI:</strong> Uso de agentes de AI y herramientas CLI como Opencode y Claude para generaci\u00f3n de scripts, debugging, tareas de automatizaci\u00f3n y prototipado r\u00e1pido de soluciones.',
           '<strong>Datos & Colaboraci\u00f3n:</strong> Gesti\u00f3n de bases de datos MySQL, resoluci\u00f3n automatizada de consultas y gesti\u00f3n de c\u00f3digo fuente con Git (ramas, PRs, code review) en equipo.',
         ],
@@ -101,9 +101,9 @@ const languages = {
         url: 'https://github.com/emmanuelmartindavid/devSecOps_lab',
       },
       {
-        name: 'Generador-borradores-Outlook',
-        description: 'Herramienta de generaci\u00f3n din\u00e1mica de flujos de trabajo en Python para creaci\u00f3n automatizada de borradores de email, agilizando la comunicaci\u00f3n entre sucursales.',
-        url: 'https://github.com/emmanuelmartindavid/Generador-borradores-Outlook',
+        name: 'Automatizaciones (Python / PowerShell)',
+        description: 'Experiencia profesional con Python y PowerShell automatizando reportes, correos y procesos operativos; el código interno no es público.',
+        url: 'https://github.com/emmanuelmartindavid',
       },
       {
         name: 'Auditoria-Hardware-Sucursales',
