@@ -43,11 +43,6 @@ const languages = {
         url: 'https://github.com/emmanuelmartindavid/devSecOps_lab',
       },
       {
-        name: 'Automation workflows (Python / PowerShell)',
-        description: 'Professional automation experience with Python and PowerShell for reporting, emails and operational processes; internal source code is not public.',
-        url: 'https://github.com/emmanuelmartindavid',
-      },
-      {
         name: 'Auditoria-Hardware-Sucursales',
         description: 'Automated hardware audit tool in PowerShell for mass equipment discovery across nationwide branches, centralizing data and generating Excel reports.',
         url: 'https://github.com/emmanuelmartindavid/Auditoria-Hardware-Sucursales',
@@ -99,11 +94,6 @@ const languages = {
         name: 'devSecOps_lab',
         description: 'Laboratorio DevSecOps con escaneo de contenedores, integraci\u00f3n de seguridad CI/CD y mejores pr\u00e1cticas de infrastructure as code.',
         url: 'https://github.com/emmanuelmartindavid/devSecOps_lab',
-      },
-      {
-        name: 'Automatizaciones (Python / PowerShell)',
-        description: 'Experiencia profesional con Python y PowerShell automatizando reportes, correos y procesos operativos; el código interno no es público.',
-        url: 'https://github.com/emmanuelmartindavid',
       },
       {
         name: 'Auditoria-Hardware-Sucursales',
